@@ -1,0 +1,74 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Exercise-1</title>
+        <style>
+            table,th,td{
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <table style="width:50%">
+            <tr>
+                <th colspan="2">Pizza Shop 2.0</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">
+                    <form>
+                    <input type="text" id="name" name="name" size="30">
+                  </form>
+                </th>
+            </tr>
+            <tr>
+                <th> Pizza Topping</th>
+                <th colspan="2">
+                    <form>
+                         <input type="radio" id="supreme" name="topping" value="supreme">
+                         <label for="male">Supreme</label><br>
+                         <input type="radio" id="veget" name="topping" value="veget">
+                         <label for="female">Vegetarain</label><br>
+                         <input type="radio" id="hawaiian" name="topping" value="hawaiian">
+                         <label for="other">Hawaiian</label>
+                    </form>
+                </th>
+            </tr>
+            <tr>
+                <th>Pizza Sauce</th>
+                <th colspan="2">
+                    <form>
+                        <select id="sauces" name="sauces">
+                            <option value="tomato">Tomato</option>
+                            <option value="chilli">Chilli</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </form>
+                </th>
+            </tr>
+            <tr>
+                <th>Optional Extras</th>
+                <th colspan="2">
+                    <form>
+                        <input type="checkbox" id="cheese" name="cheese" value="cheese">
+                        <label for="cheese"> Extra Cheese</label>
+                        <input type="checkbox" id="gluten" name="gluten" value="gluten">
+                        <label for="gluten"> Gluten Free Base</label>
+                      </form>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">Delivery Instructions:
+                    <form>
+                        <textarea name="message" style="width: 90%;height: 80px;"></textarea>
+                    </form>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2"><button type="button" >Send My Order</button></th>
+            </tr>
+
+        </table>
+
+    </body>
+</html>
