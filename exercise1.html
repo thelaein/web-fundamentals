@@ -9,71 +9,61 @@
         </style>
     </head>
     <body>
-
         <form >
+            <table style="width:50%">
+                <tr>
+                    <th colspan="2">Pizza Shop 2.0</th>
+                </tr>
 
-        <table style="width:50%">
-            <tr>
-                <th colspan="2">Pizza Shop 2.0</th>
-            </tr>
-            <tr>
-                <th>Name</th>
-                <th colspan="2">
-                   
-                    <input type="text" id="name" name="name" size="30">
-                 
-                </th>
-            </tr>
-            <tr>
-                <th> Pizza Topping</th>
-                <th colspan="2">
-                   
+                <tr>
+                    <th>Name</th>
+                    <th colspan="2">
+                        <input type="text" id="name" name="name" size="30">
+                    </th>
+                </tr>
+
+                <tr>
+                    <th> Pizza Topping</th>
+                    <th colspan="2">                   
                          <input type="radio" id="supreme" name="topping" value="supreme" checked>Supreme<br>
                          <input type="radio" id="veget" name="topping" value="veget">Vegetarain<br>
-                         <input type="radio" id="hawaiian" name="topping" value="hawaiian">Hawaiian
-                    
-                </th>
-            </tr>
-            <tr>
-                <th>Pizza Sauce</th>
-                <th colspan="2">
-                  
+                         <input type="radio" id="hawaiian" name="topping" value="hawaiian">Hawaiian                    
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>Pizza Sauce</th>
+                    <th colspan="2">                 
                         <select id="sauces" name="sauces">
                             <option value="tomato">Tomato</option>
                             <option value="chilli">Chilli</option>
                             <option value="other">Other</option>
-                        </select>
-                   
-                </th>
-            </tr>
-            <tr>
-                <th>Optional Extras</th>
-                <th colspan="2">
-                   
+                        </select>                  
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>Optional Extras</th>
+                    <th colspan="2">                  
                         <input type="checkbox" id="cheese" name="cheese" value="cheese">
                         <label for="cheese"> Extra Cheese</label>
                         <input type="checkbox" id="gluten" name="gluten" value="gluten">
                         <label for="gluten"> Gluten Free Base</label>
+                    </th>
+                </tr>
 
-                </th>
-            </tr>
-            <tr>
-                <th colspan="2">Delivery Instructions:
-                   
-                        <textarea name="message" style="width: 90%;height: 80px;"></textarea>
-                   
-                </th>
-            </tr>
-            <tr>
-                <th colspan="2">
-                   
-                        <input type="submit" value="Send  My Order">
-                  
-                </th>
-            </tr>
+                <tr>
+                    <th colspan="2">Delivery Instructions:                
+                        <textarea name="message" style="width: 90%;height: 80px;"></textarea>                  
+                    </th>
+                </tr>
 
-        </table>
+                <tr>
+                    <th colspan="2">                
+                        <input type="submit" value="Send  My Order">                  
+                    </th>
+                </tr>
+            </table>
         </form>
-
     </body>
 </html>
