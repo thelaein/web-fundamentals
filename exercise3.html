@@ -12,6 +12,12 @@
                 margin: auto;
                 width: 350px;
             }
+            span.a{
+                display: block;
+                width: 200px;
+                height: 100px;
+                margin: auto;
+            }
             input[type=text],input[type=password]{
                 width: 100%;
                 padding: 12px;
@@ -42,38 +48,41 @@
         </style>
     </head>
     <body>
-        <div class="Container">
-            <form>
-                <div class="row" style="padding-left: 100px;">
-                    <i class='fas fa-user-circle' style='font-size:88px;color:green'></i>
-                </div>
-
-                <div class="row" style="padding-left: 80px;padding-right: 50px;">
-                        <label for="login">Login to Your Account</label>                     
-                </div>
-
-                <div class="row">
-                        <input type="text" id="username" name="username" placeholder="Username" required>
-                </div>
-
-                <div class="row">               
-                        <input type="password" id="pass" name="password" placeholder="Password" required>
-                </div>
-
-                <div class="row">
-                    <div class="col-25">
-                        <input type="checkbox" id="" name="">
-                        <label for="remember">Remember me</label>
+        <div class="Main">
+            <div class="Container">
+                <form>
+                    <div class="row" style="padding-left: 100px;">
+                        <i class='fas fa-user-circle' style='font-size:88px;color:green'></i>
                     </div>
-                    <div class="col-75">
-                        <label for="forgot">Forgot Password?</label>
+    
+                    <div class="row" style="padding-left: 80px;padding-right: 50px;">
+                            <label for="login">Login to Your Account</label>                     
                     </div>
-                </div>
-
-                <div class="row" style="padding-left: 80px;">
-                    <input type="submit" value="Login">
-                </div>              
-            </form>        
-        </div>
+    
+                    <div class="row">
+                            <input type="text" id="username" name="username" placeholder="Username" required>
+                    </div>
+    
+                    <div class="row">               
+                            <input type="password" id="pass" name="password" placeholder="Password" required>
+                    </div>
+    
+                    <div class="row">
+                        <div class="col-25">
+                            <input type="checkbox" id="" name="">
+                            <label for="remember">Remember me</label>
+                        </div>
+                        <div class="col-75">
+                            <label for="forgot">Forgot Password?</label>
+                        </div>
+                    </div>
+    
+                    <div class="row" style="padding-left: 80px;">
+                        <input type="submit" value="Login">
+                    </div>              
+                </form>        
+            </div>                 
+                <p><span class="a">Don't have an account?<span style="color: #4CAF50;">Sign up</span></span></p>               
+        </div>       
     </body>
 </html>
